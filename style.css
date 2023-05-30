@@ -6,6 +6,13 @@ input{
     margin-top: 150px;
 }
 
+#card2 {
+    margin-top: 4rem;
+}
+#card2 #btn-random{
+    margin-top: 2rem;
+    width: 300px;
+}
 .card-content{
     background-color: hwb(29 5% 42%);
 

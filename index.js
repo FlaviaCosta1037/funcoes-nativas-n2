@@ -46,6 +46,7 @@ console.log('Divisão com o método nativo parseFloat: ' + divisao(parseFloat(nu
 
 // =====================================================================================================================================================
 
+// Eventos
 
 const btnSomar = document.querySelector('#btn-somar');
 const btnDividir = document.querySelector('#btn-dividir');
@@ -62,5 +63,13 @@ btnDividir.addEventListener('click', function () {
     alert("O resultado da divisão é: " + divisao(parseFloat(n1), parseFloat(n2)));
 })
 
+// =====================================================================================================================================================
 
+const btnRandom = document.querySelector('#btn-random');
 
+btnRandom.addEventListener('click', function(){
+    const numeroAleatorio = (Math.random() * 100) + 1;
+    alert('Número Randomico fracionado: ' + numeroAleatorio);
+    alert('Número Randomico arredondado para baixo: ' + Math.floor(numeroAleatorio));
+    alert('Número Randomico arredondado para cima: ' + Math.ceil(numeroAleatorio) );
+})
