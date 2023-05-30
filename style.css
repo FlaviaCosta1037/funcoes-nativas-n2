@@ -8,6 +8,7 @@ input{
 
 .card-content{
     background-color: hwb(29 5% 42%);
+
 }
 
 h1{
@@ -37,7 +38,7 @@ h1{
     height: 100%;
     background-image: url("https://www.alura.com.br/artigos/assets/php-uma-introducao-linguagem/imagem4.gif");
     animation: moveAnimation 20s linear infinite;
-    filter: brightness(0.6); 
+    filter: brightness(0.2); 
   }
   
   /* @keyframes moveAnimation {
