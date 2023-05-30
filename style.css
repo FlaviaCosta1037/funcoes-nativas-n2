@@ -1,0 +1,46 @@
+input{
+    color: aliceblue;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.card-content{
+    background-color: hwb(29 5% 42%);
+}
+
+h1{
+    margin-bottom: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.my-card {
+    margin: 0 auto;
+    max-width: 400px;
+    
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.alura.com.br/artigos/assets/php-uma-introducao-linguagem/imagem4.gif");
+    animation: moveAnimation 20s linear infinite;
+    filter: brightness(0.6); 
+  }
+  
+  /* @keyframes moveAnimation {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  } */
