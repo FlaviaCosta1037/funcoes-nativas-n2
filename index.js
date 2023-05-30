@@ -17,9 +17,9 @@ imprimir2('Pernambuco meu País');
 //Utilizando a função nativa Math.random
 
 const numeroAleatorio = (Math.random() * 100) + 1; //Definindo um intervalo de 1 a 100
-console.log(numeroAleatorio); //Mostrando o método Random com número aleatório com casas decimais
-console.log(Math.floor(numeroAleatorio)); //Mostrando o método random com número aleatório arredondando para baixo
-console.log(Math.ceil(numeroAleatorio)); //Mostrando o método random com número aleatório arredondando para cima
+console.log(numeroAleatorio); //Impressão do número aleatório com casas decimais
+console.log(Math.floor(numeroAleatorio)); //Função nativa Math.floor() com random arredondando para baixo
+console.log(Math.ceil(numeroAleatorio)); //Função nativa Math.ceil() com random arredondando para cima
 
 // =====================================================================================================================================================
 
